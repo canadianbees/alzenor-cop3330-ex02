@@ -7,6 +7,7 @@ public class StringInfo
 
     Scanner scan = new Scanner(System.in);
 
+    //get the word from user input
     public StringInfo()
     {
         System.out.print("What is the input string? ");
@@ -14,6 +15,7 @@ public class StringInfo
         this.word = scan.nextLine();
     }
 
+    //prints number of characters
     void NumCharacters()
     {
         System.out.print(this.word+" has "+this.word.length()+" characters.");
