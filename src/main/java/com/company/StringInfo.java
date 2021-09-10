@@ -1,6 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 StringInfo Class file
+ *  Copyright 2021 Celina Alzenor
+ */
 package com.company;
 
 import java.util.Scanner;
+
 public class StringInfo
 {
     String word;
